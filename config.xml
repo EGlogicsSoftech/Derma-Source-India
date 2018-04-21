@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.dermasource.app" version="0.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Angular Ui Demo</name>
+<widget id="com.dermasource.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Derma Source</name>
   <description>
-       APP DESIGN DEMO
+       Derma Source India APP
   </description>
   <author email="info@eglogics.com" href="http://eglogics.com/">
    EGlogics Team

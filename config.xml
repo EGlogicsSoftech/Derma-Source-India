@@ -19,19 +19,19 @@
     <!-- Requires cli-6.4.0 but we recommend using the latest version. -->
 	<preference name="phonegap-version" value="cli-7.0.1" />
 
-  <feature name="StatusBar">
-    <param name="ios-package" value="CDVStatusBar" onload="true"/>
-  </feature>
+	  <feature name="StatusBar">
+		<param name="ios-package" value="CDVStatusBar" onload="true"/>
+	  </feature>
   
-  <!-- for iOS -->
-<feature name="SocialSharing">
-  <param name="ios-package" value="SocialSharing" />
-</feature>
+	  <!-- for iOS -->
+	<feature name="SocialSharing">
+	  <param name="ios-package" value="SocialSharing" />
+	</feature>
 
-<!-- for Android (you will find one in res/xml) -->
-<feature name="SocialSharing">
-  <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
-</feature>
+	<!-- for Android (you will find one in res/xml) -->
+	<feature name="SocialSharing">
+	  <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
+	</feature>
 
 
   
@@ -85,13 +85,5 @@
         <splash height="960" src="resources/ios/splash/Default@2x~iphone.png" width="640" />
         <splash height="480" src="resources/ios/splash/Default~iphone.png" width="320" />
     </platform>
-  
-
-  <plugin name="cordova-plugin-statusbar" spec="~2.4.2" />
-  <plugin name="cordova-plugin-x-socialsharing" source="npm" />
-  <plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
-  <plugin name="onesignal-cordova-plugin" spec="^2.1.1" source="npm" />
-
-
-  
+ 
 </widget>
